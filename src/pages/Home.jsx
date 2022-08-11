@@ -7,10 +7,9 @@ export default function HomePage() {
 			<Link 
 				to={'/users'} 
 				style={{textDecoration: 'none', 
-								color: '#5a31aa', 
-								fontSize: '30px', 
-								fontWeight: '600'}}>
- 				 USERS
+					color: '#5a31aa', 
+					fontSize: '30px', 
+					fontWeight: '600'}}>USERS
 			</Link>
 		</nav>
 	);
