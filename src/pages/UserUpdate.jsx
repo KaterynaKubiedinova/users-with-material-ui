@@ -9,9 +9,9 @@ export default function UserUpdatePage() {
 	const user = location.state;
 	
 	return (
-			<ThemeProvider theme={theme}>
-				<UserForm  user={user}/>
-			</ThemeProvider>
+		<ThemeProvider theme={theme}>
+			<UserForm  user={user}/>
+		</ThemeProvider>
 	);
 }
 

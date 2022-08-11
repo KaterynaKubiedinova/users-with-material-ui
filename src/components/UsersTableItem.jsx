@@ -16,16 +16,16 @@ export default function UsersTableItem({StyledTableCell, user, onUserBtnClick, o
   }
 
   return (
-            <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-              <StyledTableCell align="center">{name}</StyledTableCell>
-              <StyledTableCell align="center">{surname}</StyledTableCell>
-              <StyledTableCell align="center">{phone}</StyledTableCell>
-              <StyledTableCell align="center">
-                <Button variant="contained" onClick={onDelete}>DELETE</Button>
-              </StyledTableCell>
-              <StyledTableCell align="center">
-                <Button variant="contained" onClick={onEdit}>EDIT</Button>
-              </StyledTableCell>
-            </TableRow>
+    <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+      <StyledTableCell align="center">{name}</StyledTableCell>
+      <StyledTableCell align="center">{surname}</StyledTableCell>
+      <StyledTableCell align="center">{phone}</StyledTableCell>
+      <StyledTableCell align="center">
+        <Button variant="contained" onClick={onDelete}>DELETE</Button>
+      </StyledTableCell>
+      <StyledTableCell align="center">
+        <Button variant="contained" onClick={onEdit}>EDIT</Button>
+      </StyledTableCell>
+    </TableRow>
 	);
 }
